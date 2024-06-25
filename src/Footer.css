@@ -1,0 +1,37 @@
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 20px 0;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .footer-text {
+    color: #f8f9fa;
+  }
+  
+  .features-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .feature-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    color: white;
+    margin: 10px;
+    width: 300px;
+  }
+  
+  .feature-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .feature-title {
+    font-size: 1.8rem;
+    color: white;
+  }
+  
